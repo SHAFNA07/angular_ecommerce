@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Casio G317 Digital watch",
+      "categoryId": "2",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by casio for men. It comes with a bracelet band style ",
+      "price": "11000",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/x1Gv6tjQ/casio.webp",
+      "rating": 4.5,
+      "review": 3000,
+      "vendor_Name": "casio",
+      "warranty": 1
+    },
+    {
+      "id": 2,
+      "productName": "Rado Smart watch",
+      "categoryId": "3",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by rado for men. It comes with a bracelet band style ",
+      "price": "69999",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/k51n9PMy/google.webp",
+      "rating": 4.8,
+      "review": 9000,
+      "vendor_Name": "rado",
+      "warranty": 3
+    },
+    {
+      "id": 3,
+      "productName": "Titan Regalia Premium Analog Watch",
+      "categoryId": "1",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by Titan for men. It comes with a bracelet band style ",
+      "price": "14495",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/662YdkS4/titan-men.webp",
+      "rating": 4.7,
+      "review": 8900,
+      "vendor_Name": "titan",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "productName": "Titan Rega faces Analog Watch",
+      "categoryId": "1",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by Titan for women. It comes with a bracelet band style ",
+      "price": "13145",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/nzxTXmTq/titan.webp",
+      "rating": 4.5,
+      "review": 9900,
+      "vendor_Name": "titan",
+      "warranty": 2
+    },
+    {
+      "id": 5,
+      "productName": "Rado Watch for men",
+      "categoryId": "3",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by rado for men. It comes with a bracelet band style ",
+      "price": "425900",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/76gYq5ZC/rado.webp",
+      "rating": 4.3,
+      "review": 70900,
+      "vendor_Name": "rado",
+      "warranty": 5
+   },
+    {
+      "id": 6,
+      "productName": "Brand new casio ocianeous ocw",
+      "categoryId": "2",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by casio for men. It comes with a bracelet band style ",
+      "price": "52935",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/5ySBQ9ny/casion.webp",
+      "rating": 4,
+      "review": 1000,
+      "vendor_Name": "casio",
+      "warranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Rado Ceramica",
+      "categoryId": "3",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by rado. It comes with a bracelet band style ",
+      "price": "1,79000",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/524VCPN2/rado-w.webp",
+      "rating": 4.9,
+      "review": 10000,
+      "vendor_Name": "rado",
+      "warranty": 5
+    },
+    {
+      "id": 8,
+      "productName": "Titan Analog Wrist Watch",
+      "categoryId": "1",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by titan for men. It comes with a bracelet band style ",
+      "price": "6500",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/mDJ9czYT/quartz.webp",
+      "rating": 4.6,
+      "review": 2000,
+      "vendor_Name": "Titan",
+      "warranty": 2
+    }
+  ]
+}

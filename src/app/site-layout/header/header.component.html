@@ -1,0 +1,38 @@
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="products" style="color: rgb(252, 194, 3);  text-decoration: none;"> <strong>Timevo </strong> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item " ><a class="nav-link active" style="text-decoration: none; color: rgb(252, 194, 3);" aria-current="page" href="products/add-product">Add new Product</a></li>
+                
+            </ul>
+            <form  class="d-flex">
+                <input style="color: black;" (keyup)="searchData($event)" [(ngModel)]="searchTerm" name="s1"  id="sid" type="text" placeholder="search your product">
+                <button  class="btn btn-outline-secondary ms-2" type="submit">
+                    Search
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!-- Header-->
+<header class="py-5" style="background-color: rgb(252, 194, 3)">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Just Watches</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Enjoy your shopping</p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <img  class="w-85"src="https://i.postimg.cc/Hx1HF32n/sell.jpg" alt="">
+            </div>
+
+        </div>
+       
+    </div>
+</header>

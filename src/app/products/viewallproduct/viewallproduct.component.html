@@ -1,0 +1,74 @@
+<div class="container fluid mt-2">
+
+    <div class="row">
+        <div class="col-3 text-center">
+            <a (click)="filter('')"  style=" text-decoration: none;  color: rgb(252, 194, 3);">
+                <img  id="d1" class="w-75 mb-3" style="height: 120px; border-radius: 150px;" src="https://i.postimg.cc/9XDXzx84/LL.jpg" alt="">
+                <h3>
+          All Brands
+                </h3>
+            </a>
+
+        </div>
+        <div class="col-3 text-center">
+            <a  (click)="filter(1)" style=" text-decoration: none;  color: rgb(252, 194, 3);" >
+                <img id="d1" class="w-90 mb-3" style="height: 120px; border-radius: 100px;"  src="https://i.postimg.cc/6QC56TYM/titan-logo.png" alt="">
+                <h3>
+                    Titan
+                </h3>
+            </a>
+
+        </div>
+        <div class="col-3 text-center">
+            <a  (click)="filter(2)"  style=" text-decoration: none;  color: rgb(252, 194, 3);">
+                <img  id="d1" class="w-50 mb-3" style="height: 120px; border-radius: 50px;"  src="https://i.postimg.cc/fym6m0SP/casio-logo.jpg" alt="">
+                <h3>
+                    Casio
+                </h3>
+            </a>
+
+        </div>
+        <div class="col-3 text-center">
+            <a  (click)="filter(3)" style=" text-decoration: none;  color: rgb(252, 194, 3);">
+                <img  id="d1" class="w-50 mb-3" style="height: 120px; border-radius: 50px;" src="https://i.postimg.cc/zGJ9Hvzd/rado-logo.jpg" alt="">
+                <h3>
+                    Rado
+                </h3>
+            </a>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col-md-3 mb-5" *ngFor="let i of filterCategory | filter :searchString:'productName'">
+                <div class="card h-100" id="d1">
+                    <!-- Product image-->
+                    <img  style="height: 200px;"class="card-img-top" src="{{i.productImg}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- Product price-->
+                            {{i.price}} Rs
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" routerLink="view-product/{{i.id}}">View</a></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
