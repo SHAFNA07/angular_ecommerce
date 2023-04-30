@@ -36,4 +36,16 @@ export class ProductService {
     return this.http.delete('http://localhost:3000/products/'+pid)
  
    }
+
+   //add new product
+
+   addNewProduct(pdata:any){
+    return this.http.post('http://localhost:3000/products/',pdata)
+   }
+
+   //edit product
+
+   editProduct(pid:any,pdata:any){
+    return this.http.put('http://localhost:3000/products/'+pid,pdata)
+   }
 }

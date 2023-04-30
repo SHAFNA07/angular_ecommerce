@@ -1,1 +1,85 @@
-<p>editproduct works!</p>
+<div class="container p-5 border bg-light w-75">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center p-2">Edit Product</h2>
+        <form (ngSubmit)="updateProduct(updateProductForm)" #updateProductForm="ngForm">
+
+            <div class="form-group">
+                <label for="product-name">Product id</label>
+                <input [(ngModel)]= "pdata.id" type="text" class="form-control" id="product-id" name="product-id" required>
+              </div>
+              <br>
+            
+          <div class="form-group">
+            <label for="product-name">Product Name:</label>
+            <input [(ngModel)]= "pdata.productName" type="text" class="form-control" id="product-name" name="product-name" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-price">Product Price:</label>
+            <input [(ngModel)]= "pdata.price" type="number" class="form-control" id="product-price" name="product-price" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-description">Product Description:</label>
+            <textarea [(ngModel)]= "pdata.description" class="form-control" id="product-description" name="product-description"></textarea>
+          </div>
+
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Category id: </label>
+            <input [(ngModel)]="pdata.categoryId"  type="text" class="form-control" id="Category-id" name="Category-id" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Product Rating:</label>
+            <input [(ngModel)]= "pdata.rating"   type="text" class="form-control" id="product-rating" name="product-rating" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Product Review:</label>
+            <input [(ngModel)]= "pdata.review" type="text" class="form-control" id="product-review" name="product-review" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Vendor Name:</label>
+            <input [(ngModel)]= "pdata.vendor_Name"  type="text" class="form-control" id="product-vendor" name="product-vendor" required>
+          </div>
+          <br>
+
+          <div class="form-group">
+            <label for="product-name">Product warranty:</label>
+            <input [(ngModel)]= "pdata.warranty" type="text" class="form-control" id="product-warranty" name="product-warranty" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="product-name">Product availability:</label>
+            <input [(ngModel)]= "pdata.is_available"  type="text" class="form-control" id="availability" name="availability" required>
+          </div>
+          <br>
+
+
+          
+
+          <div class="form-group">
+            <label for="product-image">  Product Image:   </label>
+            <input [(ngModel)]= "pdata.productImg" id="product-image" name="product-image"  required>
+            <img src="" alt="">
+          </div>
+
+          <br>
+          <br>
+          <button
+            style="text-decoration: none; color: rgb(252, 194, 3);"  type="submit" class="btn btn-outline-secondary ; text-center"> Update Product 
+          </button>  
+        </form>
+      </div>
+    </div>
+  </div>
+  

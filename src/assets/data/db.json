@@ -64,7 +64,7 @@
       "review": 70900,
       "vendor_Name": "rado",
       "warranty": 5
-   },
+    },
     {
       "id": 6,
       "productName": "Brand new casio ocianeous ocw",
@@ -103,6 +103,32 @@
       "review": 2000,
       "vendor_Name": "Titan",
       "warranty": 2
+    },
+    {
+      "id": "10",
+      "productName": "casio watch ",
+      "categoryId": "2",
+      "description": "Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by casio for men. It comes with a bracelet band style \",\n     ",
+      "price": 8900,
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/T2FJf86x/cas.jpg",
+      "rating": "4",
+      "review": "5000",
+      "vendor_Name": "casio",
+      "warranty": "1"
+    },
+    {
+      "id": "9",
+      "productName": "titan for men",
+      "categoryId": "",
+      "description": "\"Flaunt a stylish look with this Anthracite black stainless steel strap analog watch from the Classique collection by casio for men. It comes with a bracelet band style \\\",\\n     \",\n   ",
+      "price": 50000,
+      "is_available": "",
+      "productImg": "https://i.postimg.cc/brKSQjTj/t.jpg",
+      "rating": "4.5",
+      "review": "6000",
+      "vendor_Name": "titan",
+      "warranty": "2"
     }
   ]
 }
